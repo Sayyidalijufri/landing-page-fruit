@@ -144,3 +144,7 @@ color: #333;
   padding: 5px;
   border: 2px solid rgba(255, 255,255,0.25)
 }
+
+.thumb li img{
+max-width: 50px;
+}
