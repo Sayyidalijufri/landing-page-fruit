@@ -84,3 +84,42 @@ color: #333;
   display: flex;
 }
 
+.content .textBox{
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h2{
+  color: #fff;
+  font-size: 4em;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+.content .textBox p{
+  color: #fff;
+  margin-top: 20px;
+}  
+.content .textBox a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #fff;
+  color: #333;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1;
+  text-decoration: none;
+}
+.content imgBox{
+  position: relative;
+  z-index: 1;
+  width: 600;
+  display: flex;
+  justify-content: flex-end;
+}
+.content imgBox img{
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+}
