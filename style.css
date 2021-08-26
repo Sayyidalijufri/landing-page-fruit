@@ -134,7 +134,8 @@ color: #333;
 
 
 .thumb li.active{
-  border: 2px solid rgba(255, 255,255,1)
+  border: 2px solid rgba(255, 255,255,1);
+  transition: 0.2s
 }
 
 
