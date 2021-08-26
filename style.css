@@ -137,8 +137,21 @@ color: #333;
   border: 2px solid rgba(255, 255,255,1);
   transition: 0.2s
 }
-
-
+.thumb li::before{
+  position: absolute;
+   top:-110px;
+  left:-20px; 
+  content: attr(data-text);
+  white-space:nowrap;
+  color: rgba(255, 255,255,.15);
+  opacity: 0;
+  font-weight: 700;
+  font-size: 100px;
+  pointer-events: none;
+}
+.thumb li.active::before{
+  opacity: 1;
+}
 .thumb li{
   list-style: none;
   display: inline-block;
@@ -152,5 +165,5 @@ color: #333;
 }
 
 .thumb li img{
-max-width: 50px;
+max-width: 60px;
 }
