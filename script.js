@@ -1,4 +1,9 @@
 
+ function imgSlider(anything){
+   document.querySelector('.fruit'). src = anything;
+   }
+ 
+ 
   let el = document.querySelectorAll('.thumb li');
 for (let i = 0; i < el.length; i++){
   el[i].onclick = function(){

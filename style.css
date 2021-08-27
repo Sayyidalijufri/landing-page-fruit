@@ -82,6 +82,7 @@ color: #333;
   position: relative;
   width: 100%;
   display: flex;
+  justify-content: space-around;
 }
 
 .content .textBox{
@@ -119,7 +120,7 @@ color: #333;
   justify-content: flex-end;
 }
 .content imgBox img{
-  max-width: 400px;
+  width: 200px;
   justify-content: center;
   align-items: center;
 }
