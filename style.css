@@ -186,5 +186,6 @@ max-width: 60px;
 .sci li a{
   display: inline-block;
   margin: 5px 0;
-  transform: scale(0.6)
+  transform: scale(0.6);
+  filter: invert(1)
   }
