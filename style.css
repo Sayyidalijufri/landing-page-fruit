@@ -180,11 +180,3 @@ max-width: 60px;
   flex-direction: column;
 }
 
-.sci li{
-  list-style: none;
-}
-.sci li a{
-  display: inline-block;
-  margin: 5px 0;
-  transform: scale(0.6)
-  }
