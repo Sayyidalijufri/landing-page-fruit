@@ -180,3 +180,6 @@ max-width: 60px;
   flex-direction: column;
 }
 
+.sci li{
+  list-style: none;
+}
